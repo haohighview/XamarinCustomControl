@@ -97,7 +97,7 @@ namespace CustomControls
 		{
 			
 			// aapt resource value: 0x7f060000
-			public const int MyButton = 2131099648;
+			public const int circleTextView = 2131099648;
 			
 			// aapt resource value: 0x7f060002
 			public const int loopView = 2131099650;
@@ -107,9 +107,6 @@ namespace CustomControls
 			
 			// aapt resource value: 0x7f060003
 			public const int loopView2 = 2131099651;
-			
-			// aapt resource value: 0x7f060004
-			public const int loopView3 = 2131099652;
 			
 			static Id()
 			{

@@ -14,28 +14,17 @@ namespace CustomControls
     [Activity(Label = "CustomControls", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity, IOnItemSelectedListener
     {
-        int count = 1;
         private Toast toast;
 
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
-            // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-
-            // Get our button from the layout resource,
-            // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.MyButton);
-
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
-
-            string test = Java.Lang.String.Format(GetString(Resource.String.test), "test");
+            FindViewById<TextView>(Resource.Id.circleTextView).Text = Java.Lang.String.Format(GetString(Resource.String.test), "test");
 
             LoopView loopView = (LoopView)FindViewById(Resource.Id.loopView);
             LoopView loopView1 = (LoopView)FindViewById(Resource.Id.loopView1);
             LoopView loopView2 = (LoopView)FindViewById(Resource.Id.loopView2);
-            LoopView loopView3 = (LoopView)FindViewById(Resource.Id.loopView3);
             List<string> list = new List<string>();
             for (int i = 0; i < 5; i++)
             {
@@ -57,11 +46,6 @@ namespace CustomControls
             loopView2.Id = 3;
             loopView2.SetItems(new List<string> { "公斤", "磅" });
             loopView2.SetListener(this);
-
-            loopView3.SetNotLoop();
-            loopView3.Id = 4;
-            loopView3.SetItems(list);
-            loopView3.SetListener(this);
         }
 
         public void OnItemSelected(LoopView p0, int p1)
