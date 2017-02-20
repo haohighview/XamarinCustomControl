@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControls", "CustomControls\CustomControls.csproj", "{40BBE681-3404-4634-B5A0-83E1C51A002B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelView", "WheelView\WheelView.csproj", "{D40D41F9-E308-464F-B1DD-23051E0126C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40BBE681-3404-4634-B5A0-83E1C51A002B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BBE681-3404-4634-B5A0-83E1C51A002B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BBE681-3404-4634-B5A0-83E1C51A002B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{40BBE681-3404-4634-B5A0-83E1C51A002B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BBE681-3404-4634-B5A0-83E1C51A002B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40BBE681-3404-4634-B5A0-83E1C51A002B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D40D41F9-E308-464F-B1DD-23051E0126C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40D41F9-E308-464F-B1DD-23051E0126C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40D41F9-E308-464F-B1DD-23051E0126C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40D41F9-E308-464F-B1DD-23051E0126C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
